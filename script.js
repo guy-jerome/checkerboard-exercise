@@ -13,15 +13,15 @@ for (let i = 1; i <= 8; i++){
     tile.style.height = "12.5%"
     if (i%2===0){
       if (k%2===0){
-        tile.style.backgroundColor = rgba(0,0,0,0.5)"
+        tile.style.backgroundColor = "rgba(0,0,0,0.5)"
       }else{
-        tile.style.backgroundColor = rgba(255,0,0,0.5)"
+        tile.style.backgroundColor = "rgba(255,0,0,0.5)"
       }
     }else{
       if (k%2===0){
-        tile.style.backgroundColor = rgba(255,0,0,0.5)"
+        tile.style.backgroundColor = "rgba(255,0,0,0.5)"
       }else{
-        tile.style.backgroundColor = rgba(0,0,0,0.5)"
+        tile.style.backgroundColor = "rgba(0,0,0,0.5)"
       }
     }
     container.appendChild(tile)
